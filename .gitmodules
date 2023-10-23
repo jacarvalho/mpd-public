@@ -1,0 +1,12 @@
+[submodule "deps/experiment_launcher"]
+	path = deps/experiment_launcher
+	url = git@git.ias.informatik.tu-darmstadt.de:common/experiment_launcher.git
+[submodule "deps/motion_planning_baselines"]
+	path = deps/motion_planning_baselines
+	url = git@github.com:anindex/motion_planning_baselines.git
+[submodule "deps/torch_robotics"]
+	path = deps/torch_robotics
+	url = git@github.com:anindex/torch_robotics.git
+[submodule "deps/storm"]
+	path = deps/storm
+	url = git@github.com:jacarvalho/storm.git

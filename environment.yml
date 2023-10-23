@@ -1,0 +1,11 @@
+name: mpd
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - patchelf
+  - pip:
+      - pyyaml
+      - matplotlib
