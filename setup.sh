@@ -8,7 +8,7 @@ if [ ! -d $ISAACGYM_DIR ]; then
   exit
 fi
 
-git submodule update --init --recursive --progress
+git submodule update --init --recursive --remote --progress
 
 
 export SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True
