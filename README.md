@@ -27,10 +27,27 @@ If you have any questions please let me know -- [joao@robot-learning.de](mailto:
 ---
 ## Installation
 
-Download [IsaacGym Preview 4](https://developer.nvidia.com/isaac-gym) and extract it under `deps/isaacgym`. 
+Pre-requisites:
+- Ubuntu 20.04 (maybe works with other OS)
+- [miniconda](https://docs.conda.io/projects/miniconda/en/latest/index.html)
+
+Clone this repository with
+```bash
+cd ~
+git clone --recurse-submodules https://github.com/jacarvalho/mpd-public.git
+cd mpd-public
+```
+
+Download [IsaacGym Preview 4](https://developer.nvidia.com/isaac-gym) and extract it under `deps/isaacgym`
+```bash
+mv ~/Downloads/IsaacGym_Preview_4_Package.tar.gz ~/mpd-public/deps/
+cd ~/mpd-public/deps
+tar -xvf IsaacGym_Preview_4_Package.tar.gz
+```
 
 Run the bash setup script to install everything.
 ```
+cd ~/mpd-public
 bash setup.sh
 ```
 
@@ -40,9 +57,13 @@ bash setup.sh
 To try out the MPD inference, first download the data and the trained models. 
 
 ```bash
-gdown 1mmJAFg6M2I1OozZcyueKp_AP0HHkCq2k
+conda activate mpd
+```
+
+```bash
+gdown --id 1mmJAFg6M2I1OozZcyueKp_AP0HHkCq2k
 tar -xvf data_trajectories.tar.gz
-gdown 1I66PJ5QudCqIZ2Xy4P8e-iRBA8-e2zO1
+gdown --id 1I66PJ5QudCqIZ2Xy4P8e-iRBA8-e2zO1
 tar -xvf data_trained_models.tar.gz
 ```
 
@@ -72,6 +93,10 @@ The results will be saved under `data_trained_models/[model_id]/results_inferenc
 ## Generate data and train from scratch
 
 We recommend running the follwowing in a SLURM cluster.
+
+```bash
+conda activate mpd
+```
 
 To regenerate the data:
 ```bash
