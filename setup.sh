@@ -8,18 +8,6 @@ if [ ! -d $ISAACGYM_DIR ]; then
   exit
 fi
 
-
-cd $DEPS_DIR
-find . ! -name 'isaacgym' -type f -exec rm -rf {} +
-
-cd $ROOT_DIR
-
-git submodule sync
-git pull --recurse-submodules
-git submodule update --init --recursive --remote --progress
-
-
-
 export SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True
 
 eval "$(~/miniconda3/bin/conda shell.bash hook)"
