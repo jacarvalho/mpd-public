@@ -27,6 +27,12 @@ If you have any questions please let me know -- [joao@robot-learning.de](mailto:
 ---
 ## Installation
 
+Clone this repository with
+```bash
+git clone --recurse-submodules https://github.com/jacarvalho/mpd-public.git
+cd mpd-public
+```
+
 Download [IsaacGym Preview 4](https://developer.nvidia.com/isaac-gym) and extract it under `deps/isaacgym`. 
 
 Run the bash setup script to install everything.
