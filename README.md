@@ -57,6 +57,10 @@ bash setup.sh
 To try out the MPD inference, first download the data and the trained models. 
 
 ```bash
+conda activate mpd
+```
+
+```bash
 gdown 1mmJAFg6M2I1OozZcyueKp_AP0HHkCq2k
 tar -xvf data_trajectories.tar.gz
 gdown 1I66PJ5QudCqIZ2Xy4P8e-iRBA8-e2zO1
@@ -89,6 +93,10 @@ The results will be saved under `data_trained_models/[model_id]/results_inferenc
 ## Generate data and train from scratch
 
 We recommend running the follwowing in a SLURM cluster.
+
+```bash
+conda activate mpd
+```
 
 To regenerate the data:
 ```bash
