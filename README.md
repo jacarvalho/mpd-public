@@ -61,9 +61,9 @@ conda activate mpd
 ```
 
 ```bash
-gdown 1mmJAFg6M2I1OozZcyueKp_AP0HHkCq2k
+gdown --id 1mmJAFg6M2I1OozZcyueKp_AP0HHkCq2k
 tar -xvf data_trajectories.tar.gz
-gdown 1I66PJ5QudCqIZ2Xy4P8e-iRBA8-e2zO1
+gdown --id 1I66PJ5QudCqIZ2Xy4P8e-iRBA8-e2zO1
 tar -xvf data_trained_models.tar.gz
 ```
 
