@@ -27,16 +27,27 @@ If you have any questions please let me know -- [joao@robot-learning.de](mailto:
 ---
 ## Installation
 
+Pre-requisites:
+- Ubuntu 20.04 (maybe works with other OS)
+- [miniconda](https://docs.conda.io/projects/miniconda/en/latest/index.html)
+
 Clone this repository with
 ```bash
+cd ~
 git clone --recurse-submodules https://github.com/jacarvalho/mpd-public.git
 cd mpd-public
 ```
 
-Download [IsaacGym Preview 4](https://developer.nvidia.com/isaac-gym) and extract it under `deps/isaacgym`. 
+Download [IsaacGym Preview 4](https://developer.nvidia.com/isaac-gym) and extract it under `deps/isaacgym`
+```bash
+mv ~/Downloads/IsaacGym_Preview_4_Package.tar.gz ~/mpd-public/deps/
+cd ~/mpd-public/deps
+tar -xvf IsaacGym_Preview_4_Package.tar.gz
+```
 
 Run the bash setup script to install everything.
 ```
+cd ~/mpd-public
 bash setup.sh
 ```
 
