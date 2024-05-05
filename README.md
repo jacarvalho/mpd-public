@@ -1,9 +1,6 @@
 # Motion Planning Diffusion: Learning and Planning of Robot Motions with Diffusion Models
 
 
-Carvalho, J.; Le, A.T.; Baierl, M.; Koert, D.; Peters, J. (2023). **_Motion Planning Diffusion: Learning and Planning of Robot Motions with Diffusion Models_**, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).
-
-[<img src="https://img.shields.io/badge/arxiv-%23B31B1B.svg?&style=for-the-badge&logo=arxiv&logoColor=white" />](https://arxiv.org/abs/2308.01557)
 
 
 <p float="middle">
@@ -22,7 +19,7 @@ Hence, the results in the paper are slightly outated, but the qualitivative resu
 - The training of the baseline (CVAE) and comparison with traditional planning methods will be added soon. 
 
 
-If you have any questions please let me know -- [joao@robot-learning.de](mailto:joao@robot-learning.de)
+
 
 ---
 ## Installation
