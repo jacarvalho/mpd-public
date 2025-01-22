@@ -1,3 +1,8 @@
+This code is deprecated.\
+Please see the new version under [https://github.com/jacarvalho/mpd-splines](https://github.com/jacarvalho/mpd-splines/).
+
+---
+
 # Motion Planning Diffusion: Learning and Planning of Robot Motions with Diffusion Models
 
 
