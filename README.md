@@ -1,5 +1,5 @@
 This code is deprecated.\
-I am preparing a new version at (soon available): [https://github.com/jacarvalho/mpd-splines](https://github.com/joaoamcarvalho/mpd-splines/).
+I am preparing a new version at (soon available): [https://github.com/joaoamcarvalho/mpd-splines](https://github.com/joaoamcarvalho/mpd-splines/).
 
 ---
 
